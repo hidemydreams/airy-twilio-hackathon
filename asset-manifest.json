@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/hidemydreams/airy-twilio-hackathon/static/css/main.d122ebf0.chunk.css",
-    "main.js": "/hidemydreams/airy-twilio-hackathon/static/js/main.1cb7a600.chunk.js",
-    "main.js.map": "/hidemydreams/airy-twilio-hackathon/static/js/main.1cb7a600.chunk.js.map",
+    "main.js": "/hidemydreams/airy-twilio-hackathon/static/js/main.abe6eaf9.chunk.js",
+    "main.js.map": "/hidemydreams/airy-twilio-hackathon/static/js/main.abe6eaf9.chunk.js.map",
     "runtime-main.js": "/hidemydreams/airy-twilio-hackathon/static/js/runtime-main.d960ce84.js",
     "runtime-main.js.map": "/hidemydreams/airy-twilio-hackathon/static/js/runtime-main.d960ce84.js.map",
-    "static/js/2.029f0c7b.chunk.js": "/hidemydreams/airy-twilio-hackathon/static/js/2.029f0c7b.chunk.js",
-    "static/js/2.029f0c7b.chunk.js.map": "/hidemydreams/airy-twilio-hackathon/static/js/2.029f0c7b.chunk.js.map",
+    "static/js/2.1f5eb539.chunk.js": "/hidemydreams/airy-twilio-hackathon/static/js/2.1f5eb539.chunk.js",
+    "static/js/2.1f5eb539.chunk.js.map": "/hidemydreams/airy-twilio-hackathon/static/js/2.1f5eb539.chunk.js.map",
     "index.html": "/hidemydreams/airy-twilio-hackathon/index.html",
     "static/css/main.d122ebf0.chunk.css.map": "/hidemydreams/airy-twilio-hackathon/static/css/main.d122ebf0.chunk.css.map",
-    "static/js/2.029f0c7b.chunk.js.LICENSE.txt": "/hidemydreams/airy-twilio-hackathon/static/js/2.029f0c7b.chunk.js.LICENSE.txt",
+    "static/js/2.1f5eb539.chunk.js.LICENSE.txt": "/hidemydreams/airy-twilio-hackathon/static/js/2.1f5eb539.chunk.js.LICENSE.txt",
     "static/media/IMAGE.399e3e5e.svg": "/hidemydreams/airy-twilio-hackathon/static/media/IMAGE.399e3e5e.svg",
     "static/media/Logo.3e325c84.svg": "/hidemydreams/airy-twilio-hackathon/static/media/Logo.3e325c84.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d960ce84.js",
-    "static/js/2.029f0c7b.chunk.js",
+    "static/js/2.1f5eb539.chunk.js",
     "static/css/main.d122ebf0.chunk.css",
-    "static/js/main.1cb7a600.chunk.js"
+    "static/js/main.abe6eaf9.chunk.js"
   ]
 }
