@@ -12,7 +12,7 @@ class GeoLocation extends React.Component {
 
   async componentDidUpdate(prevProps) {
     if (prevProps.coords !== this.props.coords) {
-      const response = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${this.props.coords.latitude},${this.props.coords.longitude}&key=AIzaSyDlPyxNVQFDy56p94TpXc4ezfuEUS0asYQ`)
+      const response = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${this.props.coords.latitude},${this.props.coords.longitude}&key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`)
       const data = await response.json()
       this.setState({ countryCity: data })
     }
