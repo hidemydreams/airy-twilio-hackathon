@@ -15,7 +15,9 @@ export default function MainPage() {
             <button>Check My Air</button>
           </NavLink>
         </div>
-        <img className="Image" src={IMAGE} alt="air" />
+        <div className="main__image">
+          <img className="Image" src={IMAGE} alt="air" />
+        </div>
       </motion.div>
     </div>
   )

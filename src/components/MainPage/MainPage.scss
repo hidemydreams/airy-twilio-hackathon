@@ -9,16 +9,23 @@
   img {
     display: block;
     margin-right: 50px;
-    max-width: 550px;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+    @media (max-width: $tablets) {
+      display: none;
+    }
   }
 }
 
 .Title {
-  width: 35%;
+  flex-shrink: 0;
+  max-width: 350px;
+  width: 100%;
   color: $text-color;
   font-size: 3rem;
   line-height: 0.9;
+  margin-right: 20px;
   h1 {
     font-size: 3.5rem;
     color: $text-color;
