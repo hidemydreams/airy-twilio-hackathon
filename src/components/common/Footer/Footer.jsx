@@ -8,18 +8,12 @@ export default function Header() {
     <div className="footer">
       <div className="container">
         <div className="footer__inner">
-          <div className="footer__nav">
+          <div className="footer__logo">
             <img className="Logo" src={Logo} alt="logo" />
-            <ul className="footer__list">
-              <li><NavLink to="/">Home</NavLink></li>
-              <li><NavLink to="/check">Check Air</NavLink></li>
-              <li><NavLink to="/articles">Pollution Articles</NavLink></li>
-              <li><NavLink to="/charts">Charts</NavLink></li>
-            </ul>
           </div>
-          <div className="createdBy">
-            <p> Created by Wild Code School Students</p>
-            <div className="students">
+          <div className="students">
+            <p className="students__title"> Created by Wild Code School Students</p>
+            <div className="students__items">
               <p className="students__item">
                 <p>Nazar</p>
                 <div className="links">

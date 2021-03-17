@@ -7,31 +7,41 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .footer__nav {
-    display: flex;
-    .footer__list {
-      list-style-type: none;
-      li {
-        padding-bottom: 10px;
-      }
-      a {
-        color: $text-color;
-        text-decoration: none;
 
-        transition: 0.2s;
 
-        &:hover {
-          color: #5b6176;
-        }
-      }
+    @media (max-width: $mobile) {
+      flex-direction: column;
     }
   }
-  .createdBy {
-    text-align: left;
-    width: 30%;
-    color: $text-color;
+
+  &__logo {
+     margin-bottom: 50px;
   }
 }
 
+
+.students {
+
+  color: $text-color;
+
+  &__title {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+    p {
+      width: 100px;
+    }
+
+    a {
+      color: $text-color;
+    }
+  }
+}
 

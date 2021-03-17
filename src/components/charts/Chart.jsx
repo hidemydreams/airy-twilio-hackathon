@@ -114,13 +114,41 @@ class ChartBar extends Component {
   render() {
     return (
       <div className="chart">
-        <div className="chart-item">
+        <div className="container">
+          <div className="chart-item">
+            <Bar
+              data={this.state.chartData}
+              options={{
+                title: {
+                  display: this.props.displayTitle,
+                  text: 'Big cities with the most polluted air',
+                  fontSize: 25,
+                  fontColor: "#f1f1f1",
+                },
+
+              }}
+            />
+          </div>
+
           <Bar
-            data={this.state.chartData}
+            data={this.state.chartData1}
             options={{
               title: {
                 display: this.props.displayTitle,
-                text: 'Big cities with the most polluted air',
+                text: 'Big cities with the cleanest air',
+                fontSize: 25,
+                fontColor: "#f1f1f1",
+              },
+
+            }}
+          />
+
+          <Pie
+            data={this.state.chartData2}
+            options={{
+              title: {
+                display: this.props.displayTitle,
+                text: 'Human influence on air condition, % ',
                 fontSize: 25,
                 fontColor: "#f1f1f1",
               },
@@ -128,32 +156,6 @@ class ChartBar extends Component {
             }}
           />
         </div>
-
-        <Bar
-          data={this.state.chartData1}
-          options={{
-            title: {
-              display: this.props.displayTitle,
-              text: 'Big cities with the cleanest air',
-              fontSize: 25,
-              fontColor: "#f1f1f1",
-            },
-
-          }}
-        />
-
-        <Pie
-          data={this.state.chartData2}
-          options={{
-            title: {
-              display: this.props.displayTitle,
-              text: 'Human influence on air condition, % ',
-              fontSize: 25,
-              fontColor: "#f1f1f1",
-            },
-
-          }}
-        />
       </div>
     )
   }
